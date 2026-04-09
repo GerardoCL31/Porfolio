@@ -125,6 +125,17 @@
   transition: background 0.2s ease;
 }
 
+.movie-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.movie-actions .movie-link {
+  flex: 1 1 140px;
+  text-align: center;
+}
+
 .movie-link:hover {
   background: #333;
 }
@@ -173,5 +184,9 @@
   .movie-link {
     width: 100%;
     text-align: center;
+  }
+
+  .movie-actions {
+    flex-direction: column;
   }
 }

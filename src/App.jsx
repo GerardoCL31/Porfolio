@@ -8,24 +8,28 @@ function App() {
       description: 'A full-stack restaurant management app with React frontend and Express backend.',
       icon: '/images/CoronaHUB.png',
       link: 'https://github.com/GerardoCL31/CoronaHUB',
+      demoLink: 'https://barcorona.es',
     },
     {
       name: 'Are96WEB',
       description: 'A personal website focused on clean UI and modern frontend presentation.',
       icon: '/images/area96.png',
       link: 'https://github.com/GerardoCL31/Are96WEB',
+      demoLink: 'https://area96.es',
     },
     {
       name: 'ArchTech Landing',
       description: 'A professional landing page with responsive structure and polished visuals.',
       icon: '/images/arch-tech.png',
       link: 'https://github.com/GerardoCL31/ArchTech_Landing',
+      demoLink: 'https://archtech.gerardocorona.io/',
     },
     {
       name: 'FOXHOUND',
       description: 'A fast web application with a more dynamic and cinematic visual direction.',
       icon: '/images/FoxHound.png',
       link: 'https://github.com/GerardoCL31/FOXHOUND',
+      demoLink: 'http://foxhound.gerardocorona.io/',
     },
     {
       name: 'Fury of Thor',
@@ -44,24 +48,28 @@ function App() {
       description: 'An interactive robot simulation built as a frontend logic exercise.',
       icon: '/images/ToyRobot.png',
       link: 'https://github.com/GerardoCL31/toy-robot',
+      demoLink: 'https://toy-robot-rust.vercel.app/',
     },
     {
       name: '3EnRayasMaven',
       description: 'Tic-tac-toe built with Spring Boot, Docker, and deployment-ready structure.',
       icon: '/images/3enRaya.png',
       link: 'https://github.com/GerardoCL31/3EnRayasMaven',
+      demoLink: 'https://actividadrafa.gerardocorona.io',
     },
     {
       name: 'To-Do',
       description: 'A lightweight productivity app using HTML, CSS, JavaScript, and local storage.',
       icon: '/images//ToDo.png',
       link: 'https://github.com/GerardoCL31/To-Do',
+      demoLink: 'https://todo-two-inky.vercel.app/',
     },
     {
       name: 'Area96 Halloween',
       description: 'A seasonal interactive web experience with atmosphere and playful motion.',
       icon: '/images/Area96Hallowen.png',
       link: 'https://github.com/GerardoCL31/Area96Hallowen',
+      demoLink: 'https://apocalisis-nuclear-gerardocl31-gerardos-projects-d26175bb.vercel.app/',
     },
   ]
 
@@ -91,14 +99,27 @@ function App() {
               <div className="movie-info">
                 <h3 className="movie-title">{repo.name}</h3>
                 <p className="movie-description">{repo.description}</p>
-                <a
-                  href={repo.link}
-                  className="movie-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View on GitHub
-                </a>
+                <div className="movie-actions">
+                  <a
+                    href={repo.link}
+                    className="movie-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View on GitHub
+                  </a>
+
+                  {repo.demoLink ? (
+                    <a
+                      href={repo.demoLink}
+                      className="movie-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      DEMO-LIVE
+                    </a>
+                  ) : null}
+                </div>
               </div>
             </article>
           ))}
