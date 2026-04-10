@@ -11,10 +11,10 @@ function App() {
       demoLink: 'https://barcorona.es',
     },
     {
-      name: 'Are96WEB',
+      name: 'Area96WEB',
       description: 'A personal website focused on clean UI and modern frontend presentation.',
       icon: 'https://res.cloudinary.com/djuisin8z/image/upload/v1775814532/area96_jdgv8h.png',
-      link: 'https://github.com/GerardoCL31/Are96WEB',
+      link: 'https://github.com/GerardoCL31/Area96WEB',
       demoLink: 'https://area96.es',
     },
     {
