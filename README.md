@@ -1,145 +1,145 @@
-# 🎬 Portfolio - Gerardo Corona López
+# Portfolio - Gerardo Corona López
 
-Sitio de portfolio personal construido con **React** y **Vite**, mostrando proyectos seleccionados de desarrollo web.
+Personal portfolio website built with React and Vite, showcasing selected web development projects.
 
-## 📋 Requisitos
+## Requirements
 
-- **Node.js** 16.0 o superior
-- **npm** o **yarn**
+- Node.js 16.0 or higher
+- npm or yarn
 
-## 🚀 Instalación
+## Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
 ```bash
 git clone https://github.com/GerardoCL31/Porfolio.git
 cd Porfolio
 ```
 
-2. Instala las dependencias:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-## 🏃 Desarrollo
+## Development
 
-Inicia el servidor de desarrollo:
+Start the development server:
 ```bash
 npm run dev
 ```
 
-El servidor estará disponible en `http://localhost:5173/`
+The server will be available at `http://localhost:5173/`
 
-Para acceder desde otro dispositivo (móvil):
+To access from another device (mobile):
 ```bash
 npm run dev -- --host
 ```
 
-## 🔨 Build para Producción
+## Build for Production
 
-Genera la versión optimizada:
+Generate the optimized version:
 ```bash
 npm run build
 ```
 
-Los archivos listos para producción se generarán en la carpeta `dist/`.
+Production-ready files will be generated in the `dist/` folder.
 
-## 👁️ Vista Previa
+## Preview
 
-Para ver la versión compilada antes de desplegar:
+To preview the compiled version before deploying:
 ```bash
 npm run preview
 ```
 
-## 📦 Despliegue
+## Deployment
 
-### Opción 1: one.com
+### Option 1: one.com
 
-1. Ejecuta `npm run build`
-2. Sube el contenido de la carpeta `dist/` a tu hosting via FTP/SFTP
-3. Asegúrate de que los archivos vayan en `public_html` o la carpeta pública de tu dominio
+1. Run `npm run build`
+2. Upload the contents of the `dist/` folder to your hosting via FTP/SFTP
+3. Make sure the files go to `public_html` or your domain's public folder
 
-### Opción 2: Vercel (Recomendado)
+### Option 2: Vercel (Recommended)
 
-1. Vincula el repositorio con [Vercel](https://vercel.com)
-2. Vercel detectará automáticamente que es un proyecto Vite
-3. Deploy automático en cada push a `main`
+1. Link the repository with [Vercel](https://vercel.com)
+2. Vercel will automatically detect it's a Vite project
+3. Automatic deployment on each push to `main`
 
-### Opción 3: GitHub Pages
+### Option 3: GitHub Pages
 
-1. Modifica `vite.config.js` agregando `base: '/Porfolio/'`
-2. Ejecuta `npm run build`
-3. Sube a la rama `gh-pages`
+1. Modify `vite.config.js` by adding `base: '/Porfolio/'`
+2. Run `npm run build`
+3. Upload to the `gh-pages` branch
 
-## 🛠️ Scripts Disponibles
+## Available Scripts
 
-| Comando | Descripción |
+| Command | Description |
 |---------|------------|
-| `npm run dev` | Inicia servidor de desarrollo |
-| `npm run build` | Genera build de producción |
-| `npm run preview` | Vista previa del build |
-| `npm run lint` | Verifica código con ESLint |
+| `npm run dev` | Start development server |
+| `npm run build` | Generate production build |
+| `npm run preview` | Preview the build |
+| `npm run lint` | Check code with ESLint |
 
-## 📁 Estructura del Proyecto
+## Project Structure
 
 ```
 Porfolio/
 ├── src/
-│   ├── App.jsx          # Componente principal
-│   ├── App.css          # Estilos del app
-│   ├── main.jsx         # Punto de entrada
-│   └── index.css        # Estilos globales
+│   ├── App.jsx          # Main component
+│   ├── App.css          # App styles
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles
 ├── public/
-│   └── images/          # Imágenes públicas
-├── dist/                # Build de producción (generado)
-├── package.json         # Dependencias
-├── vite.config.js       # Configuración de Vite
-└── README.md            # Este archivo
+│   └── images/          # Public images
+├── dist/                # Production build (generated)
+├── package.json         # Dependencies
+├── vite.config.js       # Vite configuration
+└── README.md            # This file
 ```
 
-## 🎨 Personalización
+## Customization
 
-### Agregar Nuevos Proyectos
+### Adding New Projects
 
-Edita `src/App.jsx` y agrega un objeto a la array `repos`:
+Edit `src/App.jsx` and add an object to the `repos` array:
 
 ```javascript
 {
-  name: 'Nombre del Proyecto',
-  description: 'Descripción breve',
-  icon: 'URL de imagen',
-  link: 'URL de GitHub',
-  demoLink: 'URL del demo (opcional)'
+  name: 'Project Name',
+  description: 'Brief description',
+  icon: 'Image URL',
+  link: 'GitHub URL',
+  demoLink: 'Demo URL (optional)'
 }
 ```
 
-### Cambiar Estilos
+### Changing Styles
 
-- Estilos globales: `src/index.css`
-- Estilos del app: `src/App.css`
+- Global styles: `src/index.css`
+- App styles: `src/App.css`
 
-## 📱 Responsive
+## Responsive Design
 
-El sitio está optimizado para:
+The site is optimized for:
 - Desktop (1200px+)
 - Tablet (640px - 960px)
 - Mobile (< 640px)
 
-## 🐛 Issues
+## Troubleshooting
 
-Si encuentras problemas, asegúrate de:
+If you encounter issues, make sure to:
 
-1. Tener Node.js actualizado: `node --version`
-2. Limpiar cache: `rm -rf node_modules && npm install`
-3. Limpiar caché del navegador: `Ctrl+Shift+R` o `Cmd+Shift+R`
+1. Have Node.js updated: `node --version`
+2. Clear cache: `rm -rf node_modules && npm install`
+3. Clear browser cache: `Ctrl+Shift+R` or `Cmd+Shift+R`
 
-## 📄 Licencia
+## License
 
-Este proyecto es de uso personal. Todos los proyectos listados tienen sus propios repositorios en GitHub.
+This project is for personal use. All listed projects have their own repositories on GitHub.
 
-## ✨ Autor
+## Author
 
-**Gerardo Corona López** - [GitHub](https://github.com/GerardoCL31)
+Gerardo Corona López - [GitHub](https://github.com/GerardoCL31)
 
 ---
 
-¿Preguntas? Abre un issue en el repositorio.
+Questions? Open an issue on the repository.
