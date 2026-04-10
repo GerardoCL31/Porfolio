@@ -129,10 +129,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .movie-actions .movie-link {
-  flex: 1 1 140px;
+  flex: 0 0 auto;
+  min-width: 140px;
+  max-width: 180px;
   text-align: center;
 }
 
@@ -181,12 +185,20 @@
     transform: none;
   }
 
-  .movie-link {
-    width: 100%;
-    text-align: center;
-  }
-
   .movie-actions {
     flex-direction: column;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .movie-link {
+    width: 170px;
+    min-width: unset;
+    max-width: 170px;
+    padding: 0.55rem 0.8rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.05rem;
+    border-radius: 0.4rem;
+    text-align: center;
   }
 }
