@@ -79,6 +79,14 @@ function App() {
         <p className="hero-kicker">Gerardo Corona López</p>
         <h1 className="hero-title">PORTFOLIO</h1>
         <p className="hero-subtitle">Projects</p>
+        <a
+          href="http://cv.gerardocorona.io/"
+          className="hero-cv-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View CV
+        </a>
       </header>
 
       <main className="content">
