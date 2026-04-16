@@ -52,6 +52,7 @@ function App() {
       focus: 'Interaction',
       icon: 'https://res.cloudinary.com/djuisin8z/image/upload/v1775814532/FuryOfThor_ndufjm.png',
       link: 'https://github.com/GerardoCL31/fury',
+      demoLink: 'https://fury.gerardocorona.io/',
     },
     {
       name: 'Faceless',
