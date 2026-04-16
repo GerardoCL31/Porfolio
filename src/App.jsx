@@ -61,6 +61,7 @@ function App() {
       focus: 'Cultural content',
       icon: 'https://res.cloudinary.com/djuisin8z/image/upload/v1775814533/Faceless_igolqz.png',
       link: 'https://github.com/GerardoCL31/Faceless',
+      demoLink: 'https://faceless.gerardocorona.io',
     },
     {
       name: 'Toy Robot',
