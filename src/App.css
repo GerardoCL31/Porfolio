@@ -90,7 +90,10 @@
 }
 
 .hero-kicker {
-  font-size: 0.78rem;
+  position: relative;
+  top: -1rem;
+  margin-bottom: 0.35rem;
+  font-size: 1.9rem;
   font-weight: 700;
   color: #56616a;
 }
@@ -200,9 +203,21 @@
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   gap: 2rem;
-  align-items: end;
+  align-items: start;
   margin-bottom: 1.5rem;
   padding-top: 1rem;
+}
+
+.projects-intro-copy {
+  display: grid;
+  gap: 1.6rem;
+  align-self: stretch;
+  justify-items: start;
+  text-align: left;
+}
+
+.projects-intro-heading {
+  align-self: start;
 }
 
 .section-kicker {
@@ -219,7 +234,7 @@
   line-height: 1.1;
 }
 
-.projects-intro > p:last-child,
+.projects-intro-copy > p:last-child,
 .featured-copy p:last-child {
   margin: 0;
   color: #56616a;

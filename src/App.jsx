@@ -109,10 +109,10 @@ function App() {
           <span className="hero-line hero-line-two" />
           <span className="hero-line hero-line-three" />
         </div>
-        <p className="hero-kicker">Gerardo Corona Lopez</p>
+        <p className="hero-kicker">Gerardo Corona López</p>
         <h1 className="hero-title">PORTFOLIO</h1>
         <p className="hero-subtitle">
-          Frontend, full-stack, and interactive experiences with a visual focus.
+          Frontend y backend
         </p>
         <a
           href="http://cv.gerardocorona.io/"
@@ -134,12 +134,16 @@ function App() {
 
       <main className="content">
         <section className="projects-intro">
-          <p className="section-kicker">Selected Work</p>
-          <h2>Projects with context, deployment, and technical detail</h2>
-          <p>
-            Frontend, full-stack, and interactive projects built by Gerardo
-            Corona Lopez.
-          </p>
+          <div className="projects-intro-copy">
+            <p className="section-kicker">Selected Work</p>
+            <p>
+              Frontend, full-stack, and interactive projects built by <br/>
+              Gerardo Corona López.
+            </p>
+          </div>
+          <div className="projects-intro-heading">
+            <h2>Projects with context, deployment, and technical detail</h2>
+          </div>
         </section>
 
         <section className="featured-project" aria-label="Featured project">
@@ -209,7 +213,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>Gerardo Corona Lopez (c) 2026</p>
+        <p>Gerardo Corona Lopez © 2026</p>
       </footer>
     </div>
   )
