@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const stats = [
-    { value: '10+', label: 'published projects' },
+    { value: '11+', label: 'published projects' },
     { value: 'Full-stack', label: 'React, Express, and Spring Boot' },
     { value: 'Live demos', label: 'deployed and visitable work' },
   ]
@@ -26,6 +26,15 @@ function App() {
       icon: 'https://res.cloudinary.com/djuisin8z/image/upload/v1775814532/area96_jdgv8h.png',
       link: 'https://github.com/GerardoCL31/Area96WEB',
       demoLink: 'https://area96.es',
+    },
+    {
+      name: 'tiempoAPI',
+      description: 'Weather web app focused on API consumption, forecast visualization, and a clean deployed experience.',
+      stack: ['API', 'Weather', 'Frontend'],
+      focus: 'API integration',
+      icon: 'https://res.cloudinary.com/djuisin8z/image/upload/v1776873339/Captura_elyi2d.png',
+      link: 'https://github.com/GerardoCL31/tiempoAPI/tree/main',
+      demoLink: 'https://tiempo.gerardocorona.io/',
     },
     {
       name: 'ArchTech Landing',
